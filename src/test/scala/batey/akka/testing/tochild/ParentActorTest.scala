@@ -19,6 +19,6 @@ class ParentActorTest extends TestKit(ActorSystem("TestSystem")) with FunSuiteLi
 
     underTest ! "Go do some work"
 
-    // Can't test this but shows how to crate a ParentActor in production code
+    // Can't test this but shows how to create a ParentActor in production code
   }
 }
